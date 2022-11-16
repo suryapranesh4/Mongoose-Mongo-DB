@@ -7,9 +7,6 @@ const http = require("http"),
 const Restaurant = require("./model/Restaurant");
 const Order = require("./model/Order");
 
-const connectionString =
-  "mongodb+srv://suryapranesh:sBX9N8PPPL0YZgd6@cluster0.qnnde.mongodb.net/test";
-
 mongoose
   .connect(connectionString, {
     useNewUrlParser: true,
